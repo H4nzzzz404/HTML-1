@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+/* NAVBAR */
+.navbar {
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 25px 10px;
+    margin-bottom: auto;
+}
+
+.navbar-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 20px;
+    margin-bottom: auto;
+    padding: 10px 30px;
+    font-family: monospace;
+    background-color: #0c0c0c;
+    transition: ease-in-out 0.5s;
+    text-box: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 179, 0);
+}
+
+.navbar-link:hover {
+    color: cyan;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 15px;
+    padding: 10px 30px;
+    font-family: monospace;
+    background-color: #0c0c0c;
+    transition: ease-in-out 0.3s;
+    text-box: 10px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+.name {
+    margin-top: 10px;
+    margin: 0px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+    color: white;
+}
+
+.name:hover {
+    margin: 0px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px rgba(29, 138, 240, 0.3);
+    font-size: 20px;
+    text-align: center;
+    color: rgba(126, 3, 248, 0.759);
+    transition: ease-in-out 0.5s;
+}
+
+/*Foto Profil*/
+.foto {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.5s;
+    border: 5px solid rgb(254, 254, 254);
+}
+
+.foto-profil:hover {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: ease-in-out 0.5s;
+    border: 5px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* NAMA */
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-family: arial;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+/*ISI HEADER*/
+.b {
+    color: cyan;
+}
+
+/*ISI*/
+.main-container {
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    padding: 10px 10px;
+
+    margin: 10px 500px;
+    border-radius: 50px;
+    border: 3px solid #1bd4f4;
+    font-size: 16px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: ease-in-out 0.3s;
+}
+
+.perkenalan {
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px 500px;
+    border-radius: 50px;
+    border: 3px solid #1bd4f4;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    max-width: 1000px;
+    transition: ease-in-out 0.3s;
+}
+
+.greet {
+    background-color: white;
+    padding: 10px 10px;
+    max-width: 1200px;
+    margin: 10px 500px;
+    border-radius: 50px;
+    border: 3px solid #1bd4f4;
+    margin-top: 50px;
+    font-size: 16px;
+    transition: ease-in-out 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.content:hover {
+    background-color: white;
+    padding: 15px 15px;
+    margin: 10px 500px;
+    border-radius: 20px;
+    border: 3px solid #1bd4f4;
+    margin-top: 50px;
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.perkenalan:hover {
+    background-color: white;
+    padding: 15px 15px;
+    max-width: 1200px;
+    margin: 10px 500px;
+    border-radius: 20px;
+    border: 3px solid #1bd4f4;
+    margin-top: 50px;
+    transition: ease-in-out 0.3s;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.greet:hover {
+    background-color: white;
+    padding: 15px 15px;
+    max-width: 1200px;
+    margin: 10px 500px;
+    border-radius: 20px;
+    border: 3px solid #1bd4f4;
+    margin-top: 50px;
+    font-size: 20px;
+    transition: ease-in-out 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
